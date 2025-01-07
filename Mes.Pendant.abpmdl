@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.2",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Mes.Pendant.Application": {
+      "path": "src/Mes.Pendant.Application/Mes.Pendant.Application.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.Application.Tests": {
+      "path": "test/Mes.Pendant.Application.Tests/Mes.Pendant.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.Domain.Shared": {
+      "path": "src/Mes.Pendant.Domain.Shared/Mes.Pendant.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.Application.Contracts": {
+      "path": "src/Mes.Pendant.Application.Contracts/Mes.Pendant.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.HttpApi": {
+      "path": "src/Mes.Pendant.HttpApi/Mes.Pendant.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.HttpApi.Client": {
+      "path": "src/Mes.Pendant.HttpApi.Client/Mes.Pendant.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.Web": {
+      "path": "src/Mes.Pendant.Web/Mes.Pendant.Web.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.Web.Tests": {
+      "path": "test/Mes.Pendant.Web.Tests/Mes.Pendant.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.EntityFrameworkCore.Tests": {
+      "path": "test/Mes.Pendant.EntityFrameworkCore.Tests/Mes.Pendant.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.EntityFrameworkCore": {
+      "path": "src/Mes.Pendant.EntityFrameworkCore/Mes.Pendant.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.TestBase": {
+      "path": "test/Mes.Pendant.TestBase/Mes.Pendant.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.Domain.Tests": {
+      "path": "test/Mes.Pendant.Domain.Tests/Mes.Pendant.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Mes.Pendant.HttpApi.Client.ConsoleTestApp/Mes.Pendant.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Mes.Pendant.DbMigrator": {
+      "path": "src/Mes.Pendant.DbMigrator/Mes.Pendant.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Mes.Pendant.Domain": {
+      "path": "src/Mes.Pendant.Domain/Mes.Pendant.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
