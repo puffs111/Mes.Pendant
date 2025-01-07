@@ -5,7 +5,7 @@ namespace Mes.Pendant.Web.Controllers
     public class HomeController : Controller
     {
         /// <summary>
-        /// 可恶的洋洋
+        /// 可恶的洋洋11
         /// </summary>
         /// <returns></returns>
         public IActionResult Index()
